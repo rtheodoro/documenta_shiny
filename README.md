@@ -1,16 +1,10 @@
-# Pacote de Análise e Documentação de Projetos em R
+# Script de Análise e Documentação de Projetos em R
 
 O pacote `Pacote de Análise e Documentação de Projetos em R` é uma ferramenta poderosa para análise e documentação de projetos em R. Ele automatiza várias tarefas relacionadas à busca de pacotes e funções, criação de uma árvore do workflow do projeto, extração de informações do arquivo Description e geração de documentação para módulos específicos.
 
 ATENÇÃO: Para coletar informações sobre as funções utilizadas, elas devem estar no formato inseridas nos scripts do projeto no formato `pacote::funcao()`.
 
-## Instalação
 
-Para instalar o pacote, você pode clonar o repositório do GitHub:
-  
-```R
-devtools::install_github("rtheodoro/pacote-analise-projetos-r")
-```
 ## Como Usar
 
 Para utilizar as funcionalidades deste pacote, basta executar o script `0_main.R`. Este script chama todos os outros scripts na ordem correta e cria a documentação final do projeto.
